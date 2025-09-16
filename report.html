@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report Bullying - Anti-Bullying System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Report Bullying</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="report.html">Report Bullying</a>
+            <a href="resources.html">Resources</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Submit an Incident</h2>
+        <form id="reportForm">
+            <label for="type">Type of Bullying:</label>
+            <select id="type" name="type" required>
+                <option value="">Select one</option>
+                <option>Physical</option>
+                <option>Verbal</option>
+                <option>Cyberbullying</option>
+                <option>Social</option>
+                <option>Other</option>
+            </select>
+            <label for="details">Describe the incident:</label>
+            <textarea id="details" name="details" rows="5" required></textarea>
+            <label for="location">Where did it happen?</label>
+            <input type="text" id="location" name="location">
+            <label for="anonymous">
+                <input type="checkbox" id="anonymous" name="anonymous" checked>
+                Submit anonymously
+            </label>
+            <button type="submit">Submit Report</button>
+        </form>
+        <div id="reportStatus"></div>
+    </main>
+    <footer>
+        &copy; 2025 Anti-Bullying System
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
