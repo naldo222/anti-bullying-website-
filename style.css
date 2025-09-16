@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f8fb;
+    color: #222;
+}
+header {
+    background: #005a8d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,90,141,0.1);
+}
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cta {
+    display: inline-block;
+    padding: 10px 24px;
+    background: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 14px;
+    font-size: 1.1em;
+}
+.cta:hover {
+    background: #e65100;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+form input, form select, form textarea, form button {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    font-size: 1em;
+}
+form button {
+    background: #005a8d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #003d5c;
+}
+.testimonial {
+    background: #e3f2fd;
+    border-left: 4px solid #1976d2;
+    margin: 18px 0;
+    padding: 14px 18px;
+    border-radius: 4px;
+}
+footer {
+    text-align: center;
+    padding: 18px 0;
+    background: #005a8d;
+    color: #fff;
+    margin-top: 40px;
+}
